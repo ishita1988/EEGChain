@@ -4,7 +4,7 @@ Meteor.methods({
     fs = require('fs');
 
 // For dev purposes only
-    AWS.config.update({ accessKeyId: 'AKIAIC4UPV6UV3ZOZRRQ', secretAccessKey: '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' });
+    AWS.config.update({ accessKeyId: '', secretAccessKey: '' });
 
 // Read in the file, convert it to base64, store to S3
     fs.readFile('/Users/ishita/Documents/undefined', function (err, data) {

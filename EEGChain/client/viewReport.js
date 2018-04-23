@@ -12,7 +12,7 @@ Template.viewReport.events({
        var fs = require('fs');
 
 // For dev purposes only
-    AWS.config.update({ accessKeyId: 'AKIAIC4UPV6UV3ZOZRRQ', secretAccessKey: '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' });
+    AWS.config.update({ accessKeyId: '', secretAccessKey: '' });
        
    var params = {
     Bucket : "eegishita", // name of the bucket
@@ -34,7 +34,7 @@ var s3 = new AWS.S3();
 s3.getObject(params).createReadStream().pipe(file);*/
         
 /* Working code used in viewReport.html
-AWS.config.update({region: 'us-east-2', accessKeyId: 'AKIAIC4UPV6UV3ZOZRRQ', secretAccessKey: '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', signatureVersion: 'v4'});
+AWS.config.update({region: 'us-east-2', accessKeyId: '', secretAccessKey: '', signatureVersion: 'v4'});
 
 
 var myBucket = 'eegishita';

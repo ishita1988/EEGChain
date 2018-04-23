@@ -56,7 +56,7 @@ Template.registerHelper('getURL', function(){
     var AWS = require('aws-sdk');
   
 
-AWS.config.update({region: 'us-east-2', accessKeyId: 'AKIAIC4UPV6UV3ZOZRRQ', secretAccessKey: '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', signatureVersion: 'v4'});
+AWS.config.update({region: 'us-east-2', accessKeyId: '', secretAccessKey: '', signatureVersion: 'v4'});
 
 
 var myBucket = 'eegishita';

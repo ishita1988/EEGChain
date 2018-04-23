@@ -5,7 +5,7 @@ Meteor.methods({
        var fs = require('fs');
 
 // For dev purposes only
-    AWS.config.update({ accessKeyId: 'AKIAIC4UPV6UV3ZOZRRQ', secretAccessKey: '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' });
+    AWS.config.update({ accessKeyId: '', secretAccessKey: '' });
        
    var params = {
     Bucket : "eegishita", // name of the bucket
